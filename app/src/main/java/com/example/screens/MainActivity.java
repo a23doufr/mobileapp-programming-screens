@@ -1,6 +1,8 @@
 package com.example.screens;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.util.Log;
 import android.widget.Button;
 import android.view.View;
 import android.content.Intent;
@@ -17,10 +19,19 @@ public class MainActivity extends AppCompatActivity {
 
         activity2Button.setOnClickListener(new View.OnClickListener() {
             @Override
+
             public void onClick(View v) {
                 // Create Intent to start MainActivity2
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+
+
+                intent.putExtra("number", 1);
+                Bundle extras = getIntent().getExtras();
+
+
+
                 startActivity(intent);
+
             }
         });
     }
