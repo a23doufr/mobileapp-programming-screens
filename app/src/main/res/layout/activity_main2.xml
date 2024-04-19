@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    //test (last commit didnt seem to go to github)
+    //Seems fine now
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
