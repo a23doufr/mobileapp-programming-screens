@@ -43,6 +43,6 @@ Below is the xml-file for the second activity whcih was also simultaneously crea
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](![img.png](img.png)android.png)
+![img.png](img.png)
 
 
