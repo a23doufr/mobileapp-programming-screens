@@ -23,13 +23,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Create Intent to start MainActivity2
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-
-
-                intent.putExtra("number", 1);
-                Bundle extras = getIntent().getExtras();
-
-
-
                 startActivity(intent);
 
             }
